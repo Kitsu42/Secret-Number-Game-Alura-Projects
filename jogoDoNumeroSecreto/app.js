@@ -2,8 +2,6 @@ let listNumbers = [];
 let endNumber = 10;
 let secretNumber = secretNumberGeneretion();
 let tentativas = 0;
-console.log (listNumbers);
-console.log (secretNumber);
 
 textPrimary();
 
