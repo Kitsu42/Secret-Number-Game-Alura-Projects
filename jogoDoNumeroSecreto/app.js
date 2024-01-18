@@ -11,8 +11,8 @@ function text (tag,texto) {
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 function textPrimary() {
-    text ('h1','Secret number game');
-    text ('p','select a number between 1 and 10'); 
+    text ('h1','Jogo do numero secreto');
+    text ('p','Escolha um numeor entre 1 e 10'); 
 }
 function secretNumberGeneretion(){
     let secretNumbernew = parseInt(Math.random() * endNumber + 1);
