@@ -12,7 +12,7 @@ function text (tag,texto) {
 }
 function textPrimary() {
     text ('h1','Jogo do numero secreto');
-    text ('p','Escolha um numeor entre 1 e 10'); 
+    text ('p','Escolha um numero entre 1 e 10'); 
 }
 function secretNumberGeneretion(){
     let secretNumbernew = parseInt(Math.random() * endNumber + 1);
